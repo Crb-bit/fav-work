@@ -1,0 +1,47 @@
+
+
+.selected {
+    color: rgb(255, 212, 20)
+}
+.rood {
+    color: red
+}
+.black{
+    color:black
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: lightgray;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+body {
+    margin: 0;
+}
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(0, 0, 0);
+}
+nav > div > a {
+    padding: 5px;
+    color: black;
+}
+nav > div > div {
+    background-color: gray;
+    border-radius: 3px;
+    padding: 3px;
+    color: beige;
+}
